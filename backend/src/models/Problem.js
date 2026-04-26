@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 const problemSchema = new mongoose.Schema({
-    titlte : {type : String, required : true},
-    porblem : {type : String, required : true},
+    title : {type : String, required : true},
+    problem : {type : String, required : true},
     solution : {type : String, required : true},
     tags : [String],
 }, {timestamps : true})
